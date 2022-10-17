@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.tsx"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "typescript": "^4.8.4"
   },
   "devDependencies": {
-    "@types/node": "^18.8.0"
+    "@types/node": "^18.8.0",
+    "ts-node": "^10.9.1"
   }
 }
